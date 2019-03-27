@@ -51,11 +51,39 @@ public class Person {
         this.address = s;
     }
 
-    public void setInformation(){
+    public void setInformation() {
         setUserName();
         setPassword();
         setPhoneNumber();
         setEmail();
         setAddress();
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getPassword() {
+        return password;
     }
 }
