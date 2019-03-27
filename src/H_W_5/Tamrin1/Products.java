@@ -9,5 +9,9 @@ public abstract class Products {
         this.price = price;
     }
 
-    
+    public  double getPrice(){
+        return this.price;
+    }
+
+    public abstract String displayInformation();
 }
